@@ -6,4 +6,70 @@
 }
 header {
   margin: 20px 60px 50px 40px;
+  padding: 30px;
+  background-color: rgb(104, 104, 247);
+  border: none;
+  border-radius: 15px;
+}
+header p {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+main {
+  margin: 50px;
+}
+.name-input {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 7px 0 7px 10px;
+  border: 3px solid rgb(104, 104, 247);
+  border-radius: 10px;
+}
+.filter {
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding: 5px 18px;
+  background-color: rgb(104, 104, 247);
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.price-input {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 7px 0 7px 10px;
+  border: 3px solid rgb(104, 104, 247);
+  border-radius: 10px;
+}
+.search-button {
+  padding: 7px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(104, 104, 247);
+  color: white;
+}
+.products {
+  width: 100%;
+  height: auto; /* Change to auto to allow height to adjust based on content */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; Use space-between to distribute items evenly */
+  padding: 30px;
+  margin: 50px;
+}
+
+.product-item {
+  width: calc(33.33% - 40px); /* Adjust width to fit three items per row with margin */
+  height: auto; /* Change to auto to allow height to adjust based on content */
+  padding: 30px;
+  margin: 20px; /* Adjust margin to create space between items */
+}
+
+.product-item img {
+  width: 400px;
+  height: 400px;
 }
